@@ -6,9 +6,24 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.0.0",
+    "aws-sdk": "^2.1194.0",
+    "browserify-fs": "^1.0.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "net-browserify": "^0.2.4",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.1.7-beta.1",
     "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tls-browserify": "^0.2.2",
+    "url": "^0.11.0",
+    "util": "^0.12.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "node-sass": "^7.0.1",
+    "react-aws-s3": "^1.5.0",
+    "styled-components": "^5.3.5"
   }
 }
